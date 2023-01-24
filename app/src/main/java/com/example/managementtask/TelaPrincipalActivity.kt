@@ -3,7 +3,7 @@ package com.example.managementtask
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class TelaPrincipal : AppCompatActivity() {
+class TelaPrincipalActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_tela_principal)

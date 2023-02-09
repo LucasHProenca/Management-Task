@@ -2,10 +2,17 @@ package com.example.managementtask
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.managementtask.databinding.ActivityTelaPrincipalBinding
 
 class TelaPrincipalActivity : AppCompatActivity() {
+
+    private lateinit var binding: ActivityTelaPrincipalBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_tela_principal)
+
+        binding = ActivityTelaPrincipalBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+
     }
 }
